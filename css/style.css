@@ -1,0 +1,48 @@
+body {
+	background: #343434;
+    display: grid;
+	place-items: center;
+}
+
+#app {
+	text-align: center;
+	margin-top: 10rem;
+	color: white;
+	font-family: Raleway, sans-serif;
+}
+
+.title {
+	font-size: 1.3rem;
+	font-weight: 900;
+	margin-bottom: 5rem;
+}
+
+.block {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: transparent;
+	width: 350px;
+	height: 270px;
+    padding: 1.6em;
+	color: white;
+	border-radius: 30px;
+	box-shadow: 0 0 0 10px #7d98a5, 0 0 0 20px #9db2bc, 0 0 0 30px #beccd2,
+		0 0 0 40px #dee5e9, 0 0 0 50px #fff;
+	font-size: 1.1rem;
+
+}
+
+.block-prediction-hide {
+	display: none;
+	font-weight: 800;
+}
+
+.replayDiv {
+	margin-top: 5rem;
+	font-size: rem;
+}
+
+.replayDiv-replay:hover {
+	text-decoration: underline;
+}
